@@ -4,6 +4,11 @@
         "mimeType": "image/x-mkcd-f4",
         "displayName": "lvl1_exe"
     },
+    "qK": {
+        "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAAAAAAADMzMzMzAAAAMzMzMzMAAAAwMzMzMwAAADAzMzMzAAAAMDMzMzMAAAAwMzMzMwAAADAzMzMzAAAAMDMzMzMAAAAwMzMzMwAAADMzMzMzAAAAADMzMzMAAAAAADAzAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "spawn"
+    },
     "*": {
         "mimeType": "image/x-mkcd-f4",
         "dataEncoding": "base64",
