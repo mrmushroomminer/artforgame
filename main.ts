@@ -32,3 +32,9 @@ let spawner = sprites.create(assets.image`spawn`, SpriteKind.spawn)
 controller.moveSprite(mySprite, 100, 0)
 mySprite.ay = 300
 scene.cameraFollowSprite(mySprite)
+animation.runImageAnimation(
+mySprite,
+assets.animation`character_exe`,
+50,
+true
+)
