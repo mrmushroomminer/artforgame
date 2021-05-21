@@ -6,12 +6,6 @@ controller.up.onEvent(ControllerButtonEvent.Pressed, function () {
         mySprite.vy = -150
         scene.cameraShake(4, 100)
     }
-    animation.runImageAnimation(
-    mySprite,
-    assets.animation`chrJR_exe`,
-    50,
-    true
-    )
 })
 controller.left.onEvent(ControllerButtonEvent.Pressed, function () {
     animation.runImageAnimation(
@@ -24,7 +18,7 @@ controller.left.onEvent(ControllerButtonEvent.Pressed, function () {
 controller.right.onEvent(ControllerButtonEvent.Pressed, function () {
     animation.runImageAnimation(
     mySprite,
-    assets.animation`chrJR_exe`,
+    assets.animation`chrR_exe`,
     50,
     true
     )
