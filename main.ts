@@ -46,7 +46,7 @@ mySprite = sprites.create(img`
     `, SpriteKind.Player)
 animation.runImageAnimation(
 mySprite,
-assets.animation`chrJR_exe`,
+assets.animation`chrR_exe`,
 50,
 true
 )
