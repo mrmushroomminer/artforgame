@@ -53,3 +53,8 @@ true
 controller.moveSprite(mySprite, 100, 0)
 mySprite.ay = 300
 scene.cameraFollowSprite(mySprite)
+forever(function () {
+    music.playMelody("F F G G F E F F ", 300)
+    music.playMelody("E F F E D D E E ", 300)
+    music.playMelody("E F G D D G F E ", 300)
+})
